@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int edad;
+    string nombre;
+    cout << "Ingresa tu nombre: ";
+    cin >> nombre;
+    cout << "Ingresa tu edad: ";
+    cin >> edad;
+     if (edad >= 18) {
+        cout << "Bienvenido " << nombre << ", eres mayor de edad." << endl;
+    } else {
+        cout << "Bienvenido " << nombre << ", eres menor de edad." << endl;
+    }
+    return 0;
+}
